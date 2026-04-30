@@ -4,11 +4,9 @@ public class Carro {
     String modelo;
 
 
-//public Carro (String m, int a, String model){
-//    this.marca =m;
-//    this.ano = a;
-//    this.modelo = model;
-//}
+public Carro (){
+   modelo = "sei lá";
+}
 
     public void status (){
         System.out.println("Marca: " + this.marca);
